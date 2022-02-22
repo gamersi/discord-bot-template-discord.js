@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "gamer_si, Sqectic, MrPuffi",
+  "author": "gamer_si",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.5.0",
