@@ -6,7 +6,7 @@
 ## Adding a command
 <p>If you want to add a command, just create a file in the commands folder ending in <b>.command.js</b>. It should be automatically added once you restart the bot</p>
 <p>The following syntax for creating a command:</p>
-<code>
+```
 const Command = require('./Command.js');
 const commandVariableName = new Command(
     "CommandName",
@@ -25,7 +25,7 @@ const commandVariableName = new Command(
 );
 
 exports.command = commandVariableName; //make sure to export the command variable as "command" so leave the statement as it is
-</code>
+```
 
 ## Requirements
 <p>You need to have a Discord bot account.</p>
