@@ -6,6 +6,7 @@
 ## Adding a command
 <p>If you want to add a command, just create a file in the commands folder ending in <b>.command.js</b>. It should be automatically added once you restart the bot</p>
 <p>The following syntax for creating a command:</p>
+
 ```
 const Command = require('./Command.js');
 const commandVariableName = new Command(
